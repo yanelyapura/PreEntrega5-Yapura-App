@@ -1,0 +1,95 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electrónica",
+            "description": "Los últimos gadgets y dispositivos electrónicos."
+        },
+        {
+            "id": 2,
+            "name": "Ropa",
+            "description": "Moda y comodidad para todos los días."
+        },
+        {
+            "id": 3,
+            "name": "Hogar",
+            "description": "Todo lo que necesitas para tu espacio personal."
+        }
+    ],
+    "products": [
+        {
+            "id": 101,
+            "categoryId": 1,
+            "title": "Smartphone de Alta Gama",
+            "description": "Último modelo, con la mejor cámara y procesador del mercado.",
+            "price": 999.99,
+            "imageUrl": "https://storage.comprasmartphone.com/smartphones/apple-iphone-15-pro-max.png",
+            "discountPercentage": 10,
+            "salesCount": 100
+        },
+        {
+            "id": 102,
+            "categoryId": 1,
+            "title": "Laptop Ligera y Potente",
+            "description": "Ideal para profesionales y estudiantes, con gran autonomía de batería.",
+            "price": 1299.99,
+            "imageUrl": "https://leasein.pe/wp-content/uploads/2023/01/lg-gram-1-_1_-1024x576.webp",
+            "salesCount": 50
+        },
+        {
+            "id": 201,
+            "categoryId": 2,
+            "title": "Camiseta Algodón Orgánico",
+            "description": "Confortable y sostenible, disponible en varios colores.",
+            "price": 29.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCD8FJz8eUiXLH4piGWg99NaeN-ktNODxfz047z6cWv45hjY1FvX-I291x5pFnJ3ply8&usqp=CAU",
+            "salesCount": 10
+        },
+        {
+            "id": 202,
+            "categoryId": 2,
+            "title": "Jeans Clásicos",
+            "description": "Resistentes y cómodos, un must en tu armario.",
+            "price": 59.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXOI5TrDbZkzkwpKy6hAJWyY4pRPXpU1M8DOJrPFXDIugVOvSN5f9_t1aoUaCbBixdq0c&usqp=CAU",
+            "discountPercentage": 65,
+            "salesCount": 70
+        },
+        {
+            "id": 301,
+            "categoryId": 3,
+            "title": "Set de Cuchillos de Cocina",
+            "description": "Incluye 5 cuchillos esenciales para cualquier chef en casa.",
+            "price": 79.99,
+            "imageUrl": "https://www.canigo.com.ar/wp-content/uploads/set-de-cuchillos.png",
+            "salesCount": 5
+        },
+        {
+            "id": 302,
+            "categoryId": 3,
+            "title": "Robot Aspirador Inteligente",
+            "description": "Mantén tu hogar limpio sin esfuerzo, programable y silencioso.",
+            "price": 499.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjn8LdX8HEe0cuKJF9baqPowYZ1zLGlZweQd54ehMFQCHG1GCwb2DBALbUL2eIgeNOXpI&usqp=CAU",
+            "discountPercentage": 50,
+            "salesCount": 77
+        }
+    ],
+    "orders": [
+        {
+          "id": "o1",
+          "date": "2023-02-15",
+          "total": 1099.98,
+          "items": [
+            {
+              "productId": 101,
+              "quantity": 1
+            },
+            {
+              "productId": 201,
+              "quantity": 2
+            }
+          ]
+        }
+      ]
+}
